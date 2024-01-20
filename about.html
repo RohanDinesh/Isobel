@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | ISOBEL</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8c7618dc04.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="isobel_img/logo.jpeg" alt="logo" class="logo" style="height: 40px; width: 100px;"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html"    >Home</a></li>
+                    <li><a href="about.html"    >About</a></li>
+                    <li><a href="community.html">Specialities</a></li>
+                    <li><a href="collage.html"  >Gallery</a></li>
+                    <li><a href="contact.html"  >Contact</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About US</h1>
+    </section>
+
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1 style="color: rgb(73, 32, 32); font-family: Roboto, Arial;">Premium Coffee <br> Lounge Bar!</h1>
+            <p style="margin-top: 10px; margin-bottom:10px;"> 
+                Welcome to our café, a haven for coffee lovers and connoisseurs alike. Nestled in the heart of the city, our café is more than just a place to enjoy a cup of coffee. It's a sanctuary where aromatic brews meet warm smiles, where every cup tells a story, and where customer satisfaction is not just a goal, but our passion. Our café is a blend of tradition and innovation, serving both classic favorites and unique creations. So, step in, let the aroma of freshly brewed coffee envelop you, and allow us to make your day a little brighter, one cup at a time.
+                <br> South Bengaluru’s green bay welcomes you to experience a diverse range of flavours, aromas and culinary delights at its new store.
+            </p>
+                <!-- <button href="https://www.google.com/maps/dir//No.+1%2F3,+Sumeru+Enclave,+275,+9th+A+Main,+2nd+Block,+Jayanagar,+Bengaluru,+Karnataka+560011/@12.9394785,77.5022165,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bae15c53f8f6c15:0xf37121f037bf62e7!2m2!1d77.5846184!2d12.9394914?hl=en-IN&entry=ttu" class="hero-btn explore-button">Visit now!</button> -->
+            <a href="https://www.google.com/maps/dir//No.+1%2F3,+Sumeru+Enclave,+275,+9th+A+Main,+2nd+Block,+Jayanagar,+Bengaluru,+Karnataka+560011/@12.9394785,77.5022165,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bae15c53f8f6c15:0xf37121f037bf62e7!2m2!1d77.5846184!2d12.9394914?hl=en-IN&entry=ttu" class="hero-btn explore-button">VISIT NOW!</a>
+        </div>
+        <div class="about-col">
+            <img src="isobel_img/isobel1.jpeg" alt="">
+        </div>
+    </div>
+</section>
+
+
+<!---------- footer ---------->
+<section class="footer">
+    <h1>Connect with us at:</h1>
+    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, enim.</p> -->
+    <div class="icons">
+        <a href=""><i class="fab fa-youtube"></i></a>
+        <a href=""><i class="fab fa-facebook"></i></a>
+        <a href=""><i class="fab fa-instagram" id="insta"></i></a>
+        <a href=""><i class="fab fa-snapchat"></i></a>
+        <a href=""><i class="fab fa-twitter"></i></a>
+        <a href=""><i class="fab fa-telegram"></i></a>
+        <a href=""><i class="fab fa-google-plus-g"></i></a> 
+        <!-- <i class="fab fa-youtube-square"></i> -->
+        <!-- <i class="fab fa-instagram-square"></i> -->
+    </div>
+    <div>
+        <p>Made with <i class="far fa-heart"></i> by Rohan Dinesh</p>
+    </div>
+</section>  
+<!---------- JavaScript for Toggle Menu ---------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>

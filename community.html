@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specialities | ISOBEL</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8c7618dc04.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="isobel_img/logo.jpeg" alt="logo" class="logo" style="height: 40px; width: 100px;"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html"    >Home</a></li>
+                    <li><a href="about.html"    >About</a></li>
+                    <li><a href="community.html">Specialities</a></li>
+                    <li><a href="collage.html"  >Gallery</a></li>
+                    <li><a href="contact.html"  >Contact</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Specialities</h1>
+    </section>
+
+<!---------- Bestsellers ---------->
+<section class="course" id="sec-2">
+    <h1 style="margin-top: 0px;">Bestsellers at our cafe:</h1>
+    <p style="padding-top: 5px;">Experience the magic in every sip at our café. Our coffee doesn’t just wake you up, it stirs your soul</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h1 class="name">Irish Coffee</h1>
+            <img class="person-img" style="max-height: 350px; width: 88%;" src="isobel_img/coffee-isobel.webp" alt="Irish Coffee">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique aut vero odit modi accusantium unde veritatis corrupti rerum adipisci? Neque, temporibus eum consequatur blanditiis corporis error sunt nulla ipsum facilis vero numquam sed impedit magni iste quas reiciendis quia. Voluptas consequatur cupiditate suscipit ducimus veritatis! Eius voluptates nostrum delectus ad.</p>
+        </div>
+        <div class="course-col">
+            <h1 class="name">Farmhouse Pizza</h1>
+            <img class="person-img" style="max-height: 350px; width: 85%;" src="isobel_img/pizza.webp" alt="Farmhouse Pizza">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique aut vero odit modi accusantium unde veritatis corrupti rerum adipisci? Neque, temporibus eum consequatur blanditiis corporis error sunt nulla ipsum facilis vero numquam sed impedit magni iste quas reiciendis quia. Voluptas consequatur cupiditate suscipit ducimus veritatis! Eius voluptates nostrum delectus ad.</p>
+        </div>
+        <div class="course-col">
+            <h1 class="name">Salted Caramel Latte</h1>
+            <img class="person-img" style="max-height: 350px; width: 85%;" src="isobel_img/collage/28.jpeg" alt="Salted Caramel Latte">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique aut vero odit modi accusantium unde veritatis corrupti rerum adipisci? Neque, temporibus eum consequatur blanditiis corporis error sunt nulla ipsum facilis vero numquam sed impedit magni iste quas reiciendis quia. Voluptas consequatur cupiditate suscipit ducimus veritatis! Eius voluptates nostrum delectus ad.</p>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<!---------- footer ---------->
+<section class="footer">
+    <h1>Connect with us at:</h1>
+    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, enim.</p> -->
+    <div class="icons">
+        <a href=""><i class="fab fa-youtube"></i></a>
+        <a href=""><i class="fab fa-facebook"></i></a>
+        <a href=""><i class="fab fa-instagram" id="insta"></i></a>
+        <a href=""><i class="fab fa-snapchat"></i></a>
+        <a href=""><i class="fab fa-twitter"></i></a>
+        <a href=""><i class="fab fa-telegram"></i></a>
+        <a href=""><i class="fab fa-google-plus-g"></i></a> 
+        <!-- <i class="fab fa-youtube-square"></i> -->
+        <!-- <i class="fab fa-instagram-square"></i> -->
+    </div>
+    <div>
+        <p>Made with <i class="far fa-heart"></i> by Rohan Dinesh</p>
+    </div>
+</section>  
+
+<!---------- JavaScript for Toggle Menu ---------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
